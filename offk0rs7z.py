@@ -6,7 +6,7 @@ passwordsChecked = 0
 passwords = []
 count = 0
 founded = False
-#1987
+
 class myThread (threading.Thread):
 	def __init__(self, id, fromLine, toLine, fileName):
 		threading.Thread.__init__(self)
